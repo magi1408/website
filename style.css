@@ -1,36 +1,44 @@
-         body {
-         background-image: url('salon.jpg');
-         background-repeat: no-repeat;
-         background-attachment: fixed;
-         background-size: 100% 100%;
-         }
-         ul {
-         list-style-type: none;
-         margin: 0;
-         padding: 0;
-         overflow: hidden;
-         background-color: #333;
-         }
-         li {
-         float: left;
-         }
-         li a {
-         display: block;
-         color: bisque;
-         text-align: center;
-         padding: 14px 16px;
-         text-decoration: none;
-         }
-         li a:hover {
-         background-color: black;
-         }
-         span {
-         background-color: #FFE4C4;
-         }
- .bb {
-width="500px";
-height="333px";
+<meta name = "viewport" content = "width=device-width" initial-scale="1">
+body {
+	background-image: url('salon.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
 }
-.hh{
-style="color:#333333;"
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: bisque;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: black;
+}
+
+span {
+	background-color: #FFE4C4;
+}
+
+.bb {
+	width="500px";
+	height="333px";
+}
+
+.hh {
+	style="color:#333333;"
 }

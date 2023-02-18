@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
    <head>
-	<title>{{ page.title }}</title>
-	<link rel="icon" type="image/x-icon" href="img/m.png">
-	<meta name = "viewport" content = "width=device-width" initial-scale="1">
-	<link rel = "stylesheet" href = "style.css" >
-</head> 
+      <title>{{ page.title }}</title>
+      {% if page.title == "MP nail salon" %} // run this code {% endif %}
+      <link rel="icon" type="image/x-icon" href="img/m.png">
+      <meta name = "viewport" content = "width=device-width" initial-scale="1">
+      <link rel = "stylesheet" href = "style.css" >
+   </head>
    <body>
       {% include ul.html %}
       {{ content }}
